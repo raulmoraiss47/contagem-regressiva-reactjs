@@ -19,17 +19,22 @@
 
 @media (max-width: 426px) {
      .counter-number{
+        box-sizing: border-box;
+        align-items: center;
         background-color: #000;
         margin-top: 50px;
-        max-width: 10px;
+        max-width: 5px;
+        justify-content: center;
        }
 
        .counter{
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         align-items: center;
         max-width: 60px;
         gap: 1rem;
+        margin-right: 5px;
     }
     
 }
