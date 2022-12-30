@@ -20,6 +20,11 @@ function App() {
           <Counter title="Minutos" number={minute} />
           <Counter title="Segundos" number={second} />
         </div>
+        <div className="container-footer">
+          <h2>- Feliz ano novo da familia</h2>
+          <h2>~ Morais</h2><br />
+          <p className="p"><b>Raul Morais, Lizandra Morais, Atylla Morais, Kevin de Bruyne Morais</b></p>
+        </div>
       </div>
     </div>
   );
